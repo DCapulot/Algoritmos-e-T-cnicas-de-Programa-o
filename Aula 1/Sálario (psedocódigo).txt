@@ -1,0 +1,20 @@
+//algoritmo onde calcula o bônus de 30% para os funcionários
+
+inicio
+
+caracter: nome;
+real: sal, bonus, totsal;
+
+escreva("Entre com o nome do funcionário");
+leia(nome);
+
+escreva("Entre com o salário bruto do funcionário");
+leia(sal);
+
+bonus ← sal * 0,30;
+
+totsal ← sal + bonus;
+
+escreva("Seu salário com bônus será de: ", totsal);
+
+fim
